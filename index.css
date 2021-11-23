@@ -21,12 +21,18 @@ h2 {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+h3 {
+  font-size: 60px;
+  text-align: left;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .leipä {
- font-size: 20px;
- text-align: justify;
+  font-size: 20px;
+  text-align: justify;
   background: rgba(255, 255, 255, 0.5);
- padding-right: 10px;
-
+  padding-right: 10px;
+  margin-left: 10px;
 }
 
 ul {
@@ -35,4 +41,5 @@ ul {
 .footer {
   background-color: olive;
  text-align: center;
+
 }
