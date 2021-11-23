@@ -6,12 +6,12 @@ body {
 
 }
 
-
 h1 {
+  color: white;
   font-size: 60px;
   padding-top: 30px;
   padding-bottom: 10px;
-  background-image: url(skebatausta.jpg);
+  background-image: url(kitaratausta.jpg);
   background-size: auto;
   margin-bottom: 0px;
 }
@@ -33,13 +33,22 @@ h3 {
   background: rgba(255, 255, 255, 0.5);
   padding-right: 10px;
   margin-left: 10px;
+  padding-bottom: 10px;
 }
 
 ul {
   list-style-type: none;
 }
 .footer {
-  background-color: olive;
+  background-color: ;
   text-align: center;
   margin-top: 50px;
+}
+.linkki{
+  color: brown;
+
+}
+.active{
+  background-color: #987456;
+  border-radius: 5px;
 }
