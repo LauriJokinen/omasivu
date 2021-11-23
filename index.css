@@ -40,6 +40,6 @@ ul {
 }
 .footer {
   background-color: olive;
- text-align: center;
-
+  text-align: center;
+  margin-top: 50px;
 }
