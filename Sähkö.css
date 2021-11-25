@@ -1,8 +1,8 @@
 body {
-  background-color: #DFCAA0;
+  background-color: #987456;
 }
-#omakuva {
-  width: 300px;
+.container {
+  background-color: #DFCAA0;
 
 }
 
@@ -48,6 +48,6 @@ ul {
 
 }
 .active{
-  background-color: #987456;
+  background-color:  #c8a480;
   border-radius: 5px;
 }

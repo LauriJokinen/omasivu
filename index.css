@@ -1,9 +1,16 @@
 body {
+  background-color: #987456;
+}
+.container {
   background-color: #DFCAA0;
+
+}
+.navbar{
+  margin-top: ;
+
 }
 #omakuva {
   width: 300px;
-
 }
 
 h1 {
@@ -34,6 +41,7 @@ h3 {
   padding-right: 10px;
   margin-left: 10px;
   padding-bottom: 10px;
+  padding-left: 10px;
 }
 
 ul {
@@ -49,6 +57,10 @@ ul {
 
 }
 .active{
-  background-color: #987456;
+  background-color: #c8a480 ;
   border-radius: 5px;
+}
+hr {
+  margin-top: 60px;
+
 }
