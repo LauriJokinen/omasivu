@@ -6,6 +6,31 @@
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="yleinen.css">
     <link rel="stylesheet" href="sähkö.css">
+
+    <script type="text/javascript">
+
+      var i = 0;
+      var images = [];
+      var time = 5000
+
+      //images list
+      images[0] = "6peukku.png";
+      images[1] = "kitara.jpg";
+
+      //change time
+      function changeImg(){
+        document.slide.src = images[i];
+
+        if (i < images.length - 1) {
+          i++;
+        } else {
+          i = 0;
+        }
+        setTimeout ("changeImg()", time);
+      }
+
+      window.onload = changeImg
+    </script>
   </head>
   <body>
 
@@ -40,40 +65,7 @@
               </div>
         </div>
 
-      
-
-            <div class="slider diat">
-              <div class="slides">
-
-                <input type="radio" name="radio-btn" id="radio1">
-                <input type="radio" name="radio-btn" id="radio2">
-                <input type="radio" name="radio-btn" id="radio3">
-
-                <div class="slide first">
-                  <img src="6peukku.png" alt="kuva sähkökitarasta kitarasta">
-                </div>
-
-                <div class="slide">
-                  <img src="kitaratausta.jpg" alt="kuva sähkökitarasta kitarasta"
-
-                </div>
-
-                <div class="navigation-auto">
-                  <div class="auto-btn1"> </div>
-                  <div class="auto-btn2"> </div>
-
-                </div>
-
-                <div class="navigation-manual">
-                  <label for="radio1" class="manual-btn"></label>
-                  <label for="radio2" class="manual-btn"></label>
-
-                </div>
-
-              </div>
-            </div>
-
-
+<img name="slide" width="400" height="200"  >
 
         <div class=" col-sm-12">
           <hr>
@@ -85,6 +77,10 @@
           </ul>
         </div>
 
+                </div>
+
+              </div>
+            </div>
 
       </div>
     </div>

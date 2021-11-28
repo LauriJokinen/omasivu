@@ -1,12 +1,25 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
+<script type="text/javascript">
 
-    <img name="slide" width="400" height="200" src="6peukku.png" alt="">
+  var i = 0;
+  var images = [];
+  var time = 3000
 
-  </body>
-</html>
+  //images list
+  images[0] = "6peukku.png";
+  images[1] = "kitara.jpg";
+
+  //change time
+  function changeImg(){
+    document.slide.src = images[i];
+
+    if (i < images.length - 1) {
+      i++;
+    } else {
+      i = 0;
+    }
+    setTimeout ("changeImg()", time);
+  }
+
+  window.onload = changeImg
+</script>
+    <img name="slide" width="400" height="200"  >
