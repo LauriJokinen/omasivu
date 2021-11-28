@@ -6,6 +6,32 @@
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="yleinen.css">
     <link rel="stylesheet" href="klassinen.css">
+
+    <script type="text/javascript">
+
+      var i = 0;
+      var images = [];
+      var time = 5000
+
+      //images list
+      images[0] = "6peukku.png";
+      images[1] = "kitara.jpg";
+
+      //change time
+      function changeImg(){
+        document.slide.src = images[i];
+
+        if (i < images.length - 1) {
+          i++;
+        } else {
+          i = 0;
+        }
+        setTimeout ("changeImg()", time);
+      }
+
+      window.onload = changeImg
+    </script>
+
   </head>
   <body>
 
@@ -39,6 +65,19 @@
                 </ul>
               </div>
             </div>
+
+              <img name="slide" width="400" height="200"  >
+
+              <div class="sm-col-12">
+                <div class="teksti">
+
+                <p class="leipä">  <h2>wasd</h2> wasd </p>
+              </div>
+              </div>
+      
+      </div>
+
+
               <div class=" col-sm-12">
                 <hr>
                 <ul class="footer " >
@@ -50,6 +89,11 @@
               </div>
         </div>
       </div>
+
+      <div class="teksti">
+
+
+
 
     </div>
         <script type="text/javascript" scr="bootstrap.js"></script>

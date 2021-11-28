@@ -32,8 +32,8 @@ h3 {
   font-size: 20px;
   text-align: justify;
   background: rgba(255, 255, 255, 0.5);
-  padding-right: 10px;
-  margin-left: 10px;
+    margin: 10px;
+
 }
 
 ul {
@@ -53,5 +53,10 @@ ul {
   border-radius: 5px;
 }
 img {
-  display: flex;  
+  display: flex;
+  padding: 0px;
+}
+.teksti {
+  background: rgba(255, 255, 255, 0.5);
+
 }
