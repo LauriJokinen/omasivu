@@ -32,7 +32,8 @@ h3 {
   text-align: justify;
   background: rgba(255, 255, 255, 0.5);
   padding-right: 10px;
-  margin-left: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 ul {
@@ -45,12 +46,25 @@ ul {
 }
 .linkki{
   color: brown;
-
 }
 .active{
   background-color:  #c8a480;
   border-radius: 5px;
 }
-.lomake {
+textarea {
+  margin-top: 20px;
+}
+label{
   padding: 20px;
+}
+.submit {
+ margin-left: 100px;
+}
+.suositus{
+  vertical-align: top;
+}
+.ok {
+  margin-top: 40px;
+
+
 }
