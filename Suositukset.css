@@ -64,5 +64,10 @@ label{
   vertical-align: top;
 }
 .ok {
-  margin-top: 40px;
+  margin-top: 20px;
+
+
+}
+.teksti{
+  background: rgba(255, 255, 255, 0.5);
 }
