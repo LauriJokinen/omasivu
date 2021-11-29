@@ -35,7 +35,7 @@ h3 {
   padding-bottom: 30px;
 }
 .leipä {
-
+  background: rgba(255, 255, 255, 0.5);
 }
 
 ul {
@@ -62,4 +62,7 @@ ul {
 hr {
   margin-top: 60px;
 
+}
+.teksti{
+    background: rgba(255, 255, 255, 0.5);
 }
